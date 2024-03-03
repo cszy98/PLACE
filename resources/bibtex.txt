@@ -1,6 +1,10 @@
-@inproceedings{author20XXtitle,
-  title={Please cite me},
-  author={Author, First and Author, Second and Author, Third},
-  booktitle={Conference},
-  year={20XX}
+@inproceedings{lv24cvpr,
+author = "Lv, Z. and Wei, Y. and Zuo, W. and Wong, K.-Y.~K.",
+title = "PLACE: Adaptive Layout-Semantic Fusion for Semantic Image Synthesis",
+booktitle = "Proc. IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+volume = "",
+pages = "",
+address = "Seattle, Washington",
+month = "June",
+year = "2024"
 }
