@@ -12,7 +12,33 @@ The source code for our paper "PLACE: Adaptive Layout-Semantic Fusion for Semant
 
 ### Quick Start
 
+#### Installation
 
+```
+git clone 
+cd PLACE
+conda env create -f environment.yaml
+conda activate PLACE
+```
+
+#### Data Preparation
+
+Please follow the dataset preparation process in [FreestyleNet](https://github.com/essunny310/FreestyleNet).
+
+#### Running
+
+The pre-trained models can be downloaded from [GoogleDrive](https://drive.google.com/drive/folders/1b5pC52hasLwm1gOkc9LmdIyxZjrdlNWC?usp=drive_link) and should be put into the `ckpt` folder.
+
+After dataset and pre-trained models are prepared, you may evaluate the model with following scripts:
+
+```
+# evaluate on the ADE20K dataset
+./run_inference_ADE20K.sh
+# evaluate on the COCO-Stuff dataset
+./run_inference_COCO.sh
+```
+
+For out-of-distribution synthesis, you just need to modify the `ADE20K` or `COCO` dictionary in the `dataset.py`
 
 ### Citation
 
@@ -24,8 +50,6 @@ The source code for our paper "PLACE: Adaptive Layout-Semantic Fusion for Semant
   year={2024}
 }
 ```
-
-
 
 ### Contact
 
