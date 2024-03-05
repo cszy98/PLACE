@@ -4,7 +4,7 @@
 
 The source code for our paper "PLACE: Adaptive Layout-Semantic Fusion for Semantic Image Synthesis" (CVPR 2024)
 
-[**[Project Page]**](https://cszy98.github.io/PLACE/)  [**[Code]**](https://github.com/cszy98/PLACE/tree/main)  [**[Paper]**]()
+[**[Project Page]**](https://cszy98.github.io/PLACE/)  [**[Code]**](https://github.com/cszy98/PLACE/tree/main)  [**[Paper]**](https://arxiv.org/abs/2403.01852)
 
 ### Overview
 
@@ -29,7 +29,7 @@ Please follow the dataset preparation process in [FreestyleNet](https://github.c
 
 The pre-trained models can be downloaded from [GoogleDrive](https://drive.google.com/drive/folders/1b5pC52hasLwm1gOkc9LmdIyxZjrdlNWC?usp=drive_link) and should be put into the `ckpt` folder.
 
-After dataset and pre-trained models are prepared, you may evaluate the model with following scripts:
+After the dataset and pre-trained models are prepared, you may evaluate the model with the following scripts:
 
 ```
 # evaluate on the ADE20K dataset
